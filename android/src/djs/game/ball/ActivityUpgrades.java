@@ -3,6 +3,7 @@ package djs.game.ball;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
@@ -116,7 +117,9 @@ public class ActivityUpgrades extends Activity {
 
     // buy more coins from google play
     public void on_button_click_shop_upgrade_cart(View view){
-        // TODO google play store
+        Intent intent = new Intent(this, ActivityPurchase.class);
+        this.startActivity(intent);
+        this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }
 
     // button clicks for purchasing upgrades

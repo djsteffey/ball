@@ -21,6 +21,7 @@ public class CGame extends Game {
 		void save_player_request(CPlayer player);
 		CPlayer load_player_request();
 		void show_ad();
+		void show_purchases();
 	}
 
 	// enums
@@ -28,6 +29,7 @@ public class CGame extends Game {
 	public enum EScreen { PLAYING, QUIT }
 
 	// constants
+	private static final String TAG = CGame.class.toString();
 	private static final float TRANSITION_DURATION = 1.0f;
 	public static final String ID_DEFAULT_FONT_EXTRA_LARGE = "default-font-extra-large";
 	public static final String ID_DEFAULT_FONT_LARGE = "default-font-large";
@@ -96,8 +98,6 @@ public class CGame extends Game {
 	public void render(){
 		super.render();
 
-
-
 		// handle different states
 		switch (this.m_state){
 			case SCREEN_TRANSITION:
@@ -115,6 +115,20 @@ public class CGame extends Game {
 			case NORMAL:
 				break;
 		}
+	}
+
+	@Override
+	public void pause(){
+		super.pause();
+		Gdx.app.log(TAG, "pause()");
+		this.m_listener.save_player_request(this.m_player);
+	}
+
+	@Override
+	public void resume(){
+		super.resume();
+		Gdx.app.log(TAG, "resume()");
+		this.m_player = this.m_listener.load_player_request();
 	}
 
 	public void set_next_screen(final EScreen screen){
@@ -230,5 +244,9 @@ public class CGame extends Game {
 		this.m_asset_manager.load_sound(SOUND_ID_COLLECT_COIN, "collect_coin.mp3");
 		this.m_asset_manager.load_sound(SOUND_ID_GAME_OVER, "game_over.mp3");
 		this.m_asset_manager.load_sound(SOUND_ID_LAUNCH_BALL, "launch_ball.mp3");
+	}
+
+	public void request_show_purchases(){
+		this.m_listener.show_purchases();
 	}
 }

@@ -100,12 +100,12 @@
         "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/drawable-xxhdpi/abc_spinner_ab_pressed_holo_light.9.png"
     },
     {
-        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ab_stacked_transparent_dark_holo.9.png",
-        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/drawable-xxhdpi/abc_ab_stacked_transparent_dark_holo.9.png"
-    },
-    {
         "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_disabled.9.png",
         "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/drawable-xxhdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ab_stacked_transparent_dark_holo.9.png",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/drawable-xxhdpi/abc_ab_stacked_transparent_dark_holo.9.png"
     },
     {
         "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_pressed.9.png",
@@ -140,12 +140,12 @@
         "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/drawable-xxhdpi/abc_ab_stacked_transparent_light_holo.9.png"
     },
     {
-        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
         "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png",
         "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_focused.9.png",

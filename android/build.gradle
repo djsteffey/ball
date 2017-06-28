@@ -103,9 +103,6 @@ eclipse {
 }
 
 // sets up the Android Idea project, using the old Ant based build.
-dependencies {
-    compile 'com.android.support.constraint:constraint-layout:+'
-}
 idea {
     module {
         sourceDirs += file("src" ); scopes = [COMPILE: [plus: [project.configurations.compile]]]

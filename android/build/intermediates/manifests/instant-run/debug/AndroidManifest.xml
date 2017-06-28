@@ -56,6 +56,9 @@
         <activity
             android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
             android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.android.billingclient.util.ProxyBillingActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="unityplayer.ForwardNativeEventsToDalvik"

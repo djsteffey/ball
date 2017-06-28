@@ -39,7 +39,7 @@
             android:id="@+id/purchase_remove_ads"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
-            android:text="$0.99"
+            android:text="UNK"
             android:textSize="30sp"
             android:textColor="#FFFFFFFF"
             android:background="@drawable/main_menu_button"
@@ -67,7 +67,7 @@
             android:id="@+id/purchase_coins_250"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
-            android:text="$1.49"
+            android:text="UNK"
             android:textSize="30sp"
             android:textColor="#FFFFFFFF"
             android:textAlignment="center"
@@ -95,7 +95,7 @@
             android:id="@+id/purchase_coins_500"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
-            android:text="$1.99"
+            android:text="UNK"
             android:textSize="30sp"
             android:textColor="#FFFFFFFF"
             android:textAlignment="center"
@@ -123,7 +123,7 @@
             android:id="@+id/purchase_coins_1000"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
-            android:text="$2.99"
+            android:text="UNK"
             android:textSize="30sp"
             android:textColor="#FFFFFFFF"
             android:textAlignment="center"
@@ -143,5 +143,15 @@
     <Space
         android:layout_width="wrap_content"
         android:layout_height="20sp" />
+
+    <TextView
+        android:id="@+id/purchase_current_coins"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Current Coins: 888"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:drawableRight="@drawable/upgrades_coin"/>
 
 </LinearLayout>

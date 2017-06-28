@@ -326,8 +326,6 @@ public class ActivityMainMenu extends Activity {
     }
 
     protected static boolean check_for_no_ads_file(Activity activity){
-        return false;
-        /*
         try {
             FileInputStream fis = activity.openFileInput(ActivityMainMenu.ADS_DISABLED_FILENAME);
             ObjectInputStream ois = new ObjectInputStream(fis);
@@ -339,6 +337,20 @@ public class ActivityMainMenu extends Activity {
         catch (Exception e){
             e.printStackTrace();
             return false;
-        }*/
+        }
     }
+
+    protected static void write_no_ads_file(Activity activity, boolean value){
+        try {
+            FileOutputStream fos = activity.openFileOutput(ActivityMainMenu.ADS_DISABLED_FILENAME, MODE_PRIVATE);
+            ObjectOutputStream oos = new ObjectOutputStream(fos);
+            oos.writeBoolean(value);
+            oos.close();
+            fos.close();
+        }
+        catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+
 }

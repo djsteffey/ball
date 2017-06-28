@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_include.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_action_bar_tab.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_bar_tab.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_action_bar_decor_overlay.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/layout_activity_credits.xml",
+        "source": "/home/djsteffey/data/programming/gamedev/java/ball/android/res/layout/layout_activity_credits.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_action_bar_tabbar.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_bar_tabbar.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_action_mode_close_item.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_mode_close_item.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/layout_activity_main_menu.xml",
+        "source": "/home/djsteffey/data/programming/gamedev/java/ball/android/res/layout/layout_activity_main_menu.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_action_bar_home.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_bar_home.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_search_view.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/abc_action_bar_decor_include.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/layout_activity_upgrades.xml",
+        "source": "/home/djsteffey/data/programming/gamedev/java/ball/android/res/layout/layout_activity_upgrades.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/layout/layout_activity_purchase.xml",
+        "source": "/home/djsteffey/data/programming/gamedev/java/ball/android/res/layout/layout_activity_purchase.xml"
+    }
+]

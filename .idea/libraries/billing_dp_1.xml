@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="billing-dp-1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/eb1faee3dfeb30fa85c00379e4c05ff0411ca4c9/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/eb1faee3dfeb30fa85c00379e4c05ff0411ca4c9/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.billingclient/billing/dp-1/ff6d175688e7894e4de4e806ffc342b6ac8833a/billing-dp-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

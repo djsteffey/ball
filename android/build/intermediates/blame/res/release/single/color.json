@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/color/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/color/common_plus_signin_btn_text_light.xml",
+        "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/color/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/release/color/abc_search_url_text_holo.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/color/abc_search_url_text_holo.xml"
+    }
+]

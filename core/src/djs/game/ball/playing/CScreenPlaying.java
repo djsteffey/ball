@@ -425,6 +425,7 @@ public class CScreenPlaying extends CScreen implements InputProcessor {
         this.m_debug_label.setText("Balls:" + this.m_object_manager.get_num_active_balls() +
             " Particles:" + this.m_object_manager.get_num_active_particles() +
             " State:" + this.m_state.toString());
+        CScreenPlaying.this.m_points_button.setText("" + this.m_game.get_player().get_current_points());
 
 
         // draw the entire screen

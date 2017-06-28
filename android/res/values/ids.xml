@@ -15,4 +15,11 @@ Save this file as res/values/games-ids.xml in your project.
     <string name="leaderboard_balls_launched_single_game">CgkI27bh2ocREAIQCA</string>
     <string name="leaderboard_total_balls_launched">CgkI27bh2ocREAIQAw</string>
     <string name="leaderboard_total_number_games">CgkI27bh2ocREAIQBQ</string>
+
+    <!--IAP stuff-->
+    <string name="iab_public_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj7IsLedQ1y6FoGE1S2IfK8aRo72zm/zYpZWLzgaLzlG1QyDeHQo+kEYyG9mNAwc7Q6oTr2CbAmKzYqVo25EeiE4yabQGtMkzioWHtm76icJIAyrczGG7ezsuCf/hDhbkhnOPPjI9jLt3VXiG+kXhyIOUETqaNtt//9aulgIBE3S6+0txOlLqXcu+GQSENgJJhVheHJztPPaL5dORlE3BODTKjsBSfn/D39mvlgtN8fU7rULyS2NIs7Sh3rEWiYKTn6i/n344u6Axv/SJMccNKRLczA39eb8CNNWbP5b8KDR4bAA2U2U+SMk3k59iEm4DDJvnDUOlOZxXwk7rxoBF5QIDAQAB</string>
+    <string name="iab_sku_remove_ads">iab.remove.ads</string>
+    <string name="iab_sku_coins_250">iab.coins.250</string>
+    <string name="iab_sku_coins_500">iab.coins.500</string>
+    <string name="iab_sku_coins_1000">iab.coins.1000</string>
 </resources>

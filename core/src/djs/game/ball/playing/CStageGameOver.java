@@ -193,7 +193,8 @@ public class CStageGameOver extends Stage {
                 new CUiShapeButton.IListener() {
                     @Override
                     public void on_click(CUiShapeButton button) {
-                        // TODO open the google play store to purchase coins
+                        CStageGameOver.this.m_screen_playing.get_game().request_save_player();
+                        CStageGameOver.this.m_screen_playing.get_game().request_show_purchases();
                     }
                 },
                 screen_playing.get_game().get_asset_manager().get_texture_region(CGame.GRAPHICS_ID_CART));
@@ -213,6 +214,14 @@ public class CStageGameOver extends Stage {
         super.act(delta_time);
         this.m_cart_button.setX(750.0f - this.m_cart_button.getWidth() - CScreenPlaying.BORDER_WALL_SIZE);
         this.m_cart_button.setY(this.m_button_continue.getY() - this.m_cart_button.getHeight() * 0.40f);
+
+        // see if continue should be disabled
+        if (this.m_continue_cost <= this.m_screen_playing.get_game().get_player().get_current_points()){
+            this.m_button_continue.set_disabled(false);
+        }
+        else{
+            this.m_button_continue.set_disabled(true);
+        }
     }
 
     public void show(int continue_cost){
@@ -261,7 +270,7 @@ public class CStageGameOver extends Stage {
         this.m_button_continue.calculate_coin_x();
     }
 
-    public void hide(){
+    private void hide(){
         // stop input
         Gdx.input.setInputProcessor(null);
 
@@ -296,8 +305,7 @@ public class CStageGameOver extends Stage {
     private Label.LabelStyle create_label_style(CScreenPlaying screen_playing){
         BitmapFont font = screen_playing.get_game().get_asset_manager().get_ttf_font(CGame.ID_DEFAULT_FONT_EXTRA_LARGE);
 
-        Label.LabelStyle style = new Label.LabelStyle(font, Color.WHITE);
-        return style;
+        return new Label.LabelStyle(font, Color.WHITE);
     }
     // end assets functions
 

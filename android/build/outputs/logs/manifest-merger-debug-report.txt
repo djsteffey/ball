@@ -18,6 +18,7 @@ ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidMan
 uses-sdk
 ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/djsteffey/.android/build-cache/6fae4b200065a013f3807c2483c5ac3501eeb3ef/output/AndroidManifest.xml:23:5-42
+MERGED from [com.android.billingclient:billing:dp-1] /home/djsteffey/.android/build-cache/eb1faee3dfeb30fa85c00379e4c05ff0411ca4c9/output/AndroidManifest.xml:5:5-7:41
 MERGED from [ball:BaseGameUtils:1.0] /home/djsteffey/data/programming/gamedev/java/ball/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:appcompat-v7:20.0.0] /home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/AndroidManifest.xml:16:5-42
 MERGED from [com.google.android.gms:play-services-games:8.4.0] /home/djsteffey/.android/build-cache/f42a962e12ad71b12abab1cc6b35c8b9e0e4eba3/output/AndroidManifest.xml:18:5-42
@@ -26,7 +27,6 @@ MERGED from [com.google.android.gms:play-services-plus:8.4.0] /home/djsteffey/.a
 MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/djsteffey/.android/build-cache/d509c51ed9b15ee0a3d25ebfe248ba3464e2de3f/output/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:23.0.0] /home/djsteffey/.android/build-cache/7004a692d44d44273b4d1668d3d3a21c84e8971f/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/djsteffey/.android/build-cache/89da82bded2b3abab705bc1718aa3630ab19d399/output/AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
 		ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:9:9-38
 		INJECTED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml
@@ -49,21 +49,10 @@ uses-permission#com.android.vending.BILLING
 ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:13:5-67
 	android:name
 		ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:13:22-64
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:14:5-81
-	android:name
-		ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:14:22-78
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:15:5-75
-	android:name
-		ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:15:22-72
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:16:5-80
-	android:name
-		ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:16:22-77
 application
 ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:18:5-56:19
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] /home/djsteffey/.android/build-cache/6fae4b200065a013f3807c2483c5ac3501eeb3ef/output/AndroidManifest.xml:24:5-32:19
+MERGED from [com.android.billingclient:billing:dp-1] /home/djsteffey/.android/build-cache/eb1faee3dfeb30fa85c00379e4c05ff0411ca4c9/output/AndroidManifest.xml:9:5-13:19
 MERGED from [ball:BaseGameUtils:1.0] /home/djsteffey/data/programming/gamedev/java/ball/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:26:5-30:19
 MERGED from [com.android.support:appcompat-v7:20.0.0] /home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/AndroidManifest.xml:17:5-19
 MERGED from [com.google.android.gms:play-services-games:8.4.0] /home/djsteffey/.android/build-cache/f42a962e12ad71b12abab1cc6b35c8b9e0e4eba3/output/AndroidManifest.xml:19:5-20
@@ -71,7 +60,6 @@ MERGED from [com.google.android.gms:play-services-drive:8.4.0] /home/djsteffey/.
 MERGED from [com.google.android.gms:play-services-plus:8.4.0] /home/djsteffey/.android/build-cache/38f35f32fb97ad13742f99ca841a8d310e98d3f7/output/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/djsteffey/.android/build-cache/d509c51ed9b15ee0a3d25ebfe248ba3464e2de3f/output/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.0.0] /home/djsteffey/.android/build-cache/7004a692d44d44273b4d1668d3d3a21c84e8971f/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/djsteffey/.android/build-cache/89da82bded2b3abab705bc1718aa3630ab19d399/output/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:21:9-41
 	android:allowBackup
@@ -150,6 +138,12 @@ ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/djsteffey/.and
 		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/djsteffey/.android/build-cache/6fae4b200065a013f3807c2483c5ac3501eeb3ef/output/AndroidManifest.xml:31:13-50
 	android:name
 		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /home/djsteffey/.android/build-cache/6fae4b200065a013f3807c2483c5ac3501eeb3ef/output/AndroidManifest.xml:30:19-91
+activity#com.android.billingclient.util.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:dp-1] /home/djsteffey/.android/build-cache/eb1faee3dfeb30fa85c00379e4c05ff0411ca4c9/output/AndroidManifest.xml:10:9-12:75
+	android:theme
+		ADDED from [com.android.billingclient:billing:dp-1] /home/djsteffey/.android/build-cache/eb1faee3dfeb30fa85c00379e4c05ff0411ca4c9/output/AndroidManifest.xml:12:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:dp-1] /home/djsteffey/.android/build-cache/eb1faee3dfeb30fa85c00379e4c05ff0411ca4c9/output/AndroidManifest.xml:11:13-79
 meta-data#unityplayer.ForwardNativeEventsToDalvik
 ADDED from [ball:BaseGameUtils:1.0] /home/djsteffey/data/programming/gamedev/java/ball/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:27:9-29:36
 	android:value

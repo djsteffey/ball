@@ -176,12 +176,12 @@
         "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/drawable-mdpi/abc_list_divider_holo_dark.9.png"
     },
     {
-        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-mdpi/abc_ab_stacked_solid_dark_holo.9.png",
-        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/drawable-mdpi/abc_ab_stacked_solid_dark_holo.9.png"
-    },
-    {
         "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_text_dark_disabled.9.png",
         "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/drawable-mdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-mdpi/abc_ab_stacked_solid_dark_holo.9.png",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/drawable-mdpi/abc_ab_stacked_solid_dark_holo.9.png"
     },
     {
         "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-mdpi/abc_menu_dropdown_panel_holo_light.9.png",
@@ -232,12 +232,12 @@
         "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_light.png"
     },
     {
-        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/drawable-mdpi/common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
         "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-mdpi/abc_list_divider_holo_light.9.png",
         "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/drawable-mdpi/abc_list_divider_holo_light.9.png"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/drawable-mdpi/common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/drawable-mdpi/abc_ab_stacked_transparent_light_holo.9.png",

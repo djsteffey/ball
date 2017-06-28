@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/home/djsteffey/.android/build-cache/c07dd7afbbbc7f61927ff968d4e3bfd5cd938918/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
         "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
         "source": "/home/djsteffey/.android/build-cache/98c08bb1c91637e07956147e16d97eef60f7dab4/output/res/color/common_plus_signin_btn_text_dark.xml"
     },

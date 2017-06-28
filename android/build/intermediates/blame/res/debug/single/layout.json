@@ -24,12 +24,12 @@
         "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/layout/abc_action_bar_tabbar.xml",
         "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_action_bar_tabbar.xml"
+    },
+    {
+        "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/djsteffey/.android/build-cache/4f15af63bfe5ed7615dfccde1d303094973e22aa/output/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",

@@ -1,5 +1,6 @@
 package djs.game.ball;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -94,6 +95,13 @@ public class ActivityPlay extends AndroidApplication {
                         }
                     });
                 }
+            }
+
+            @Override
+            public void show_purchases() {
+                Intent intent = new Intent(ActivityPlay.this, ActivityPurchase.class);
+                ActivityPlay.this.startActivity(intent);
+                ActivityPlay.this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
         AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
