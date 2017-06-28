@@ -178,7 +178,7 @@ public class CScreenPlaying extends CScreen implements InputProcessor {
         // debug label
         this.m_debug_label = new Label("Debug", this.create_debug_label_style());
         this.m_debug_label.setPosition(0.0f, 1334.0f - this.m_debug_label.getHeight());
-        this.m_stage.addActor(this.m_debug_label);
+//        this.m_stage.addActor(this.m_debug_label);
 
         // setup the game over stage for when it comes to that
         this.m_stage_game_over = new CStageGameOver(this, new FitViewport(750, 1334), new CStageGameOver.IListener() {

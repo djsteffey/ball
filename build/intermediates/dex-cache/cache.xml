@@ -7,7 +7,7 @@
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="c972e1cbd803a1c17c4acec1993c54cea3dd1889">
+        sha1="f532bd5a3a733d0821a62c8d7f557cc40ef1dad8">
         <dex dex="/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/pre-dexed/debug/core-1.0_de6890a0d21d593e11f81ecabf2569e379a4cf14.jar" />
     </item>
     <item
@@ -21,21 +21,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/djsteffey/data/programming/gamedev/java/ball/BaseGameUtils/build/intermediates/bundles/default/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="9dfc9bed38b1cf812b9958b2d24eb9e63329789c">
-        <dex dex="/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/pre-dexed/release/classes_9caf1e640ce52c425426be8ac74e64935ec42516.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/djsteffey/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
         <dex dex="/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_aa95bf3dc69d0efffb99c816b28e1fe876d9726b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/djsteffey/data/programming/gamedev/java/ball/BaseGameUtils/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9dfc9bed38b1cf812b9958b2d24eb9e63329789c">
+        <dex dex="/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/pre-dexed/release/classes_9caf1e640ce52c425426be8ac74e64935ec42516.jar" />
     </item>
 
 </items>
