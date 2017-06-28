@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main_menu_layout"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/main_menu_banner_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_banner_ad"
+        />
+
+    <LinearLayout
+        android:id="@+id/main_menu_layout_linear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/main_menu_textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:text="Ball Smash Block"
+            android:textColor="#FFFFFFFF"
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/main_menu_title"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/main_menu_button_play"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:textSize="30sp"
+            android:textColor="#FFFFFFFF"
+            android:background="@drawable/main_menu_button"
+            android:onClick="on_button_click_play"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/main_menu_button_upgrades"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Upgrades"
+            android:textSize="30sp"
+            android:textColor="#FFFFFFFF"
+            android:background="@drawable/main_menu_button"
+            android:onClick="on_button_click_upgrades"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/main_menu_button_leaderboards"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Leaderboards"
+            android:textSize="30sp"
+            android:textColor="#FFFFFFFF"
+            android:background="@drawable/main_menu_button"
+            android:onClick="on_button_click_leaderboards"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/main_menu_button_purchases"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Purchases"
+            android:textSize="30sp"
+            android:textColor="#FFFFFFFF"
+            android:background="@drawable/main_menu_button"
+            android:onClick="on_button_click_purchases"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/main_menu_button_credits"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Credits"
+            android:textSize="30sp"
+            android:textColor="#FFFFFFFF"
+            android:background="@drawable/main_menu_button"
+            android:onClick="on_button_click_credits"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/main_menu_button_quit"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="Quit"
+            android:textSize="30sp"
+            android:textColor="#FFFFFFFF"
+            android:background="@drawable/main_menu_button"
+            android:onClick="on_button_click_quit"/>
+    </LinearLayout>
+
+</LinearLayout>

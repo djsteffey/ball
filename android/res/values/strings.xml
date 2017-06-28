@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ball Smash Block</string>
+    <string name="upgrades_cost_max_value">MAX</string>
+
+    <string name="admob_banner_ad">ca-app-pub-5673239259906583/5842108958</string>
+    <string name="admob_interstitial_ad">ca-app-pub-5673239259906583/4225774950</string>
+    <string name="admob_test_device">4112ABC2A1D59386EEBE8FC80FAF9266</string>
+
+    <string name="loading">Loading...</string>
+    <string name="remove_ads_purchased_cost">Owned</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <string name="app_id">586184940379</string>
+    <string name="package_name">djs.game.ball</string>
+    <string name="leaderboard_levels_completed_single_game">CgkI27bh2ocREAIQCQ</string>
+    <string name="leaderboard_total_levels_completed">CgkI27bh2ocREAIQBA</string>
+    <string name="leaderboard_blocks_destroyed_single_game">CgkI27bh2ocREAIQBw</string>
+    <string name="leaderboard_total_blocks_destroyed">CgkI27bh2ocREAIQAg</string>
+    <string name="leaderboard_coins_earned_single_game">CgkI27bh2ocREAIQBg</string>
+    <string name="leaderboard_total_coins_earned">CgkI27bh2ocREAIQAQ</string>
+    <string name="leaderboard_balls_launched_single_game">CgkI27bh2ocREAIQCA</string>
+    <string name="leaderboard_total_balls_launched">CgkI27bh2ocREAIQAw</string>
+    <string name="leaderboard_total_number_games">CgkI27bh2ocREAIQBQ</string>
+</resources>

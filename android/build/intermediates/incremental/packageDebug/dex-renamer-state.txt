@@ -1,0 +1,7 @@
+#Wed Jun 28 01:19:56 EDT 2017
+base.0=/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8a9e3e8f7399bc86aa41a5092e1c6bdb9a92ae93
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_83d9e6c6508bddf70c9222090e885baa4ab66cf9/classes.dex
+base.1=/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_83d9e6c6508bddf70c9222090e885baa4ab66cf9
+file.0=/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8a9e3e8f7399bc86aa41a5092e1c6bdb9a92ae93/classes.dex
