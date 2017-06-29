@@ -69,7 +69,7 @@ public class ActivityPlay extends AndroidApplication {
                     final InterstitialAd ad = new InterstitialAd(ActivityPlay.this);
                     ad.setAdUnitId(ActivityPlay.this.getResources().getString(R.string.admob_interstitial_ad));
                     final AdRequest ad_reqeust = new AdRequest.Builder()
-                            .addTestDevice(ActivityPlay.this.getResources().getString(R.string.admob_test_device))
+//                            .addTestDevice(ActivityPlay.this.getResources().getString(R.string.admob_test_device))
                             .build();
                     ad.setAdListener(new AdListener() {
                         @Override
@@ -134,7 +134,7 @@ public class ActivityPlay extends AndroidApplication {
         // start ads
         if (ActivityMainMenu.check_for_no_ads_file(this) == false) {
             AdRequest adRequest = new AdRequest.Builder()
-                    .addTestDevice(ActivityPlay.this.getResources().getString(R.string.admob_test_device))
+//                    .addTestDevice(ActivityPlay.this.getResources().getString(R.string.admob_test_device))
                     .build();
             ActivityPlay.this.m_ad_view.loadAd(adRequest);
         }

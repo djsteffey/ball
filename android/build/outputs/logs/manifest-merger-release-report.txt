@@ -6,11 +6,11 @@ ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidMan
 		INJECTED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml
 		INJECTED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:5:5-30
+		ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:5:5-31
 		INJECTED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml
 		INJECTED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml
 	android:versionCode
-		ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:4:5-29
+		ADDED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml:4:5-30
 		INJECTED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml
 		INJECTED from /home/djsteffey/data/programming/gamedev/java/ball/android/AndroidManifest.xml
 	xmlns:android

@@ -44,7 +44,7 @@ public class ActivityMainMenu extends Activity {
             // ads are NOT disabled
             // so start it up
             AdRequest ad_reqeust = new AdRequest.Builder()
-                    .addTestDevice(this.getResources().getString(R.string.admob_test_device))
+//                    .addTestDevice(this.getResources().getString(R.string.admob_test_device))
                     .build();
             this.m_ad_view.loadAd(ad_reqeust);
         }

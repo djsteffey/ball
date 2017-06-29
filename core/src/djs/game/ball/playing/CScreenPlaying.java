@@ -49,7 +49,7 @@ public class CScreenPlaying extends CScreen implements InputProcessor {
     private static final int NUM_BLOCKS_WIDE = 8;
     public static final float BORDER_WALL_SIZE = 15.0f;
     private static final float BLOCK_SPAWN_CONSISTENCY = 0.75f;
-    private static final float BLOCK_SPAWN_CHANCE = 0.75f;
+    private static final float BLOCK_SPAWN_CHANCE = 0.65f;
     private static final float BLOCK_SPAWN_BOMB_CHANCE_BASE = 0.040f;
     private static final float BLOCK_SPAWN_POINT_CHANCE_BASE = 0.040f;
     private static final float BALL_QUANTITY_OF_LEVEL_BASE = 0.50f;

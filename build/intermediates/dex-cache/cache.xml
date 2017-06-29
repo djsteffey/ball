@@ -7,8 +7,8 @@
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="f532bd5a3a733d0821a62c8d7f557cc40ef1dad8">
-        <dex dex="/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/pre-dexed/debug/core-1.0_de6890a0d21d593e11f81ecabf2569e379a4cf14.jar" />
+        sha1="41f879c2c100de09a93cec1b992feba9bd396088">
+        <dex dex="/home/djsteffey/data/programming/gamedev/java/ball/android/build/intermediates/pre-dexed/release/core-1.0_de6890a0d21d593e11f81ecabf2569e379a4cf14.jar" />
     </item>
     <item
         is-multidex="false"

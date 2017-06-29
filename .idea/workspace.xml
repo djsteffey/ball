@@ -15,32 +15,42 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityCredits.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityCredits.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityMainMenu.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityMainMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityPlay$1.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityPlay$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityPlay.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityPlay.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityPurchase.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityPurchase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityUpgrades.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/ActivityUpgrades.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$id.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$integer.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$layout.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$string.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$style.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$styleable.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/BuildConfig.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/release/djs/game/ball/BuildConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/zip-cache/yhJtuAge0RDJyQo+2PFZzmtj9ss=" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/zip-cache/yhJtuAge0RDJyQo+2PFZzmtj9ss=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/core-1.0_de6890a0d21d593e11f81ecabf2569e379a4cf14.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/core-1.0_de6890a0d21d593e11f81ecabf2569e379a4cf14.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/release_e7e31d3583962a879ca54e8dee53f5a929f7bd16.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/release/release_e7e31d3583962a879ca54e8dee53f5a929f7bd16.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-release.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-release.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_6kz8i8hwyan90wav4afeyfm3h/djs/game/ball/playing/CScreenPlaying.class" afterPath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_6kz8i8hwyan90wav4afeyfm3h/djs/game/ball/playing/CScreenPlaying.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/djs/game/ball/playing/CScreenPlaying.class" afterPath="$PROJECT_DIR$/core/build/classes/main/djs/game/ball/playing/CScreenPlaying.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseGameUtils/BaseGameUtils.iml" afterPath="$PROJECT_DIR$/BaseGameUtils/BaseGameUtils.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/generated/source/r/release/djs/game/ball/R.java" afterPath="$PROJECT_DIR$/android/build/generated/source/r/release/djs/game/ball/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/generated/source/buildConfig/release/djs/game/ball/BuildConfig.java" afterPath="$PROJECT_DIR$/android/build/generated/source/buildConfig/release/djs/game/ball/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/file-input-save-data.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageRelease/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/layout/layout_activity_main_menu.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/layout/layout_activity_main_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/layout/layout_activity_upgrades.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/release/layout/layout_activity_upgrades.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/symbols/release/R.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/symbols/release/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/full/release/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-release-report.txt" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-release-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/reports/lint-results-release-fatal.html" afterPath="$PROJECT_DIR$/android/build/reports/lint-results-release-fatal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/res/layout/layout_activity_main_menu.xml" afterPath="$PROJECT_DIR$/android/res/layout/layout_activity_main_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/res/layout/layout_activity_upgrades.xml" afterPath="$PROJECT_DIR$/android/res/layout/layout_activity_upgrades.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/djs/game/ball/ActivityCredits.java" afterPath="$PROJECT_DIR$/android/src/djs/game/ball/ActivityCredits.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/djs/game/ball/ActivityMainMenu.java" afterPath="$PROJECT_DIR$/android/src/djs/game/ball/ActivityMainMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/djs/game/ball/ActivityPlay.java" afterPath="$PROJECT_DIR$/android/src/djs/game/ball/ActivityPlay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/djs/game/ball/ActivityPurchase.java" afterPath="$PROJECT_DIR$/android/src/djs/game/ball/ActivityPurchase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/djs/game/ball/ActivityUpgrades.java" afterPath="$PROJECT_DIR$/android/src/djs/game/ball/ActivityUpgrades.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/djs/game/ball/playing/CScreenPlaying.java" afterPath="$PROJECT_DIR$/core/src/djs/game/ball/playing/CScreenPlaying.java" />
     </list>
     <ignored path="ball.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,18 +85,15 @@
       <file leaf-file-name="ActivityPurchase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityPurchase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2646">
-              <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+            <state relative-caret-position="558">
+              <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
               <folding>
-                <element signature="imports" expanded="false" />
                 <element signature="method#onResume#0;class#ActivityPurchase#0" expanded="false" />
                 <element signature="method#onPause#0;class#ActivityPurchase#0" expanded="false" />
                 <element signature="method#onDestroy#0;class#ActivityPurchase#0" expanded="false" />
                 <element signature="method#onBackPressed#0;class#ActivityPurchase#0" expanded="false" />
                 <element signature="method#on_button_click_coins_1000#0;class#ActivityPurchase#0" expanded="false" />
                 <element signature="method#onBillingSetupFinished#0;class#ActivityPurchase#0" expanded="false" />
-                <element signature="e#10044#10045#0" expanded="false" />
-                <element signature="e#10104#10105#0" expanded="false" />
                 <element signature="method#consume_coins#0;class#ActivityPurchase#0" expanded="false" />
                 <element signature="method#check_for_remove_ads_purchased#0;class#ActivityPurchase#0" expanded="false" />
                 <element signature="method#alert#0;class#ActivityPurchase#0" expanded="false" />
@@ -98,8 +105,8 @@
       <file leaf-file-name="ActivityMainMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityMainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5238">
-              <caret line="339" column="9" selection-start-line="339" selection-start-column="9" selection-end-line="339" selection-end-column="9" />
+            <state relative-caret-position="540">
+              <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
               <folding>
                 <element signature="method#show_leaderboards#0;class#ActivityMainMenu#0" expanded="false" />
                 <element signature="method#enable_all_buttons#0;class#ActivityMainMenu#0" expanded="false" />
@@ -109,18 +116,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CStageGameOver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/djs/game/ball/playing/CStageGameOver.java">
+      <file leaf-file-name="ActivityPlay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityPlay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3078">
-              <caret line="195" column="94" selection-start-line="195" selection-start-column="94" selection-end-line="195" selection-end-column="94" />
+            <state relative-caret-position="990">
+              <caret line="71" column="44" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="method#hide#0;class#CStageGameOver#0" expanded="false" />
-                <element signature="method#load_assets#0;class#CStageGameOver#0" expanded="false" />
-                <element signature="method#create_label_style#0;class#CStageGameOver#0" expanded="false" />
-                <element signature="e#13639#13640#0" expanded="false" />
-                <element signature="e#13682#13683#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#ActivityPlay#0" expanded="false" />
+                <element signature="method#onPause#0;class#ActivityPlay#0" expanded="false" />
+                <element signature="method#onResume#0;class#ActivityPlay#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -129,10 +133,9 @@
       <file leaf-file-name="ActivityUpgrades.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityUpgrades.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="201" column="32" selection-start-line="188" selection-start-column="8" selection-end-line="201" selection-end-column="32" />
+            <state relative-caret-position="486">
+              <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
               <folding>
-                <element signature="imports" expanded="false" />
                 <element signature="method#onResume#0;class#ActivityUpgrades#0" expanded="false" />
                 <element signature="method#onPause#0;class#ActivityUpgrades#0" expanded="false" />
                 <element signature="method#onDestroy#0;class#ActivityUpgrades#0" expanded="false" />
@@ -150,9 +153,14 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="54">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding>
+                <element signature="e#873#891#0" expanded="true" />
+                <element signature="e#1041#1057#0" expanded="true" />
+                <element signature="e#1164#1203#0" expanded="true" />
+                <element signature="e#1297#1315#0" expanded="true" />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-manifest">
@@ -160,16 +168,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CStageGameOver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/djs/game/ball/playing/CStageGameOver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="195" column="94" selection-start-line="195" selection-start-column="94" selection-end-line="195" selection-end-column="94" />
+              <folding>
+                <element signature="method#hide#0;class#CStageGameOver#0" expanded="false" />
+                <element signature="method#load_assets#0;class#CStageGameOver#0" expanded="false" />
+                <element signature="method#create_label_style#0;class#CStageGameOver#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CScreenPlaying.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/djs/game/ball/playing/CScreenPlaying.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="180" column="2" selection-start-line="180" selection-start-column="2" selection-end-line="180" selection-end-column="2" />
+            <state relative-caret-position="144">
+              <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
               <folding>
-                <element signature="e#4671#5617#0" expanded="true" />
-                <element signature="e#5616#5617#0" expanded="true" />
-                <element signature="e#6456#6676#0" expanded="true" />
-                <element signature="e#6675#6676#0" expanded="true" />
                 <element signature="method#keyDown#0;class#CScreenPlaying#0" expanded="false" />
                 <element signature="method#touchDown#0;class#CScreenPlaying#0" expanded="false" />
                 <element signature="method#touchUp#0;class#CScreenPlaying#0" expanded="false" />
@@ -192,10 +210,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ActivityCredits.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityCredits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="layout_activity_upgrades.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/res/layout/layout_activity_upgrades.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="9324">
               <caret line="565" column="0" selection-start-line="565" selection-start-column="0" selection-end-line="565" selection-end-column="0" />
               <folding>
                 <element signature="e#25753#25859#0" expanded="false" />
@@ -219,39 +247,6 @@
             <state relative-caret-position="18">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="41" />
               <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout_activity_credits.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/res/layout/layout_activity_credits.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout_activity_purchase.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/res/layout/layout_activity_purchase.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="157" column="15" selection-start-line="157" selection-start-column="15" selection-end-line="157" selection-end-column="15" />
-              <folding>
-                <element signature="e#1196#2085#0" expanded="false" />
-                <element signature="e#2187#3069#0" expanded="false" />
-                <element signature="e#3075#3165#0" expanded="false" />
-                <element signature="e#3171#4053#0" expanded="false" />
-                <element signature="e#4059#4149#0" expanded="false" />
-                <element signature="e#5046#5136#0" expanded="false" />
-              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer2">
@@ -3725,16 +3720,17 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/android/res/values/ids.xml" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
-        <option value="$PROJECT_DIR$/android/src/djs/game/ball/ActivityUpgrades.java" />
         <option value="$PROJECT_DIR$/core/src/djs/game/ball/playing/CStageGameOver.java" />
         <option value="$PROJECT_DIR$/core/src/djs/game/ball/CGame.java" />
-        <option value="$PROJECT_DIR$/android/src/djs/game/ball/ActivityPlay.java" />
-        <option value="$PROJECT_DIR$/android/src/djs/game/ball/ActivityMainMenu.java" />
         <option value="$PROJECT_DIR$/android/res/layout/layout_activity_purchase.xml" />
-        <option value="$PROJECT_DIR$/android/src/djs/game/ball/ActivityPurchase.java" />
-        <option value="$PROJECT_DIR$/core/src/djs/game/ball/playing/CScreenPlaying.java" />
         <option value="$PROJECT_DIR$/android/res/layout/layout_activity_main_menu.xml" />
         <option value="$PROJECT_DIR$/android/res/layout/layout_activity_upgrades.xml" />
+        <option value="$PROJECT_DIR$/android/src/djs/game/ball/ActivityCredits.java" />
+        <option value="$PROJECT_DIR$/android/src/djs/game/ball/ActivityMainMenu.java" />
+        <option value="$PROJECT_DIR$/android/src/djs/game/ball/ActivityPurchase.java" />
+        <option value="$PROJECT_DIR$/android/src/djs/game/ball/ActivityUpgrades.java" />
+        <option value="$PROJECT_DIR$/android/src/djs/game/ball/ActivityPlay.java" />
+        <option value="$PROJECT_DIR$/core/src/djs/game/ball/playing/CScreenPlaying.java" />
         <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
       </list>
     </option>
@@ -3770,6 +3766,97 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="android">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="android">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="android">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="android">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="android">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="android">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="android">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="android">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3883,102 +3970,11 @@
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="Scratches">
         <subPane />
       </pane>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="android">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="android">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="android">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="android">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="android">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="android">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="android">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="android">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+      <pane id="PackagesPane">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -4324,7 +4320,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="24" width="1360" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.4939117" order="7" side_tool="false" content_ui="tabs" />
@@ -4332,8 +4328,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7378641" sideWeight="0.5030441" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.394822" sideWeight="0.49695587" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26864535" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2524272" sideWeight="0.49695587" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4353,6 +4348,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26864535" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -4374,25 +4370,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/res/layout/layout_activity_upgrades.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8370">
-          <caret line="465" column="0" selection-start-line="465" selection-start-column="0" selection-end-line="478" selection-end-column="82" />
-          <folding>
-            <element signature="e#25753#25859#0" expanded="false" />
-            <element signature="e#25901#27983#0" expanded="false" />
-            <element signature="e#26095#27300#0" expanded="false" />
-            <element signature="e#26422#26777#0" expanded="false" />
-            <element signature="e#26798#26920#0" expanded="false" />
-            <element signature="e#26941#27267#0" expanded="false" />
-            <element signature="e#27369#27951#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/res/layout/layout_activity_purchase.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
@@ -4416,15 +4393,12 @@
         <state relative-caret-position="2412">
           <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onResume#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#onPause#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#onDestroy#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#on_button_click_coins_1000#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#onBillingSetupFinished#0;class#ActivityPurchase#0" expanded="false" />
-            <element signature="e#10044#10045#0" expanded="false" />
-            <element signature="e#10104#10105#0" expanded="false" />
             <element signature="method#consume_coins#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#check_for_remove_ads_purchased#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#alert#0;class#ActivityPurchase#0" expanded="false" />
@@ -4458,7 +4432,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding />
+          <folding>
+            <element signature="e#873#891#0" expanded="true" />
+            <element signature="e#1041#1057#0" expanded="true" />
+            <element signature="e#1164#1203#0" expanded="true" />
+            <element signature="e#1297#1315#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4483,15 +4462,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onResume#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#onPause#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#onDestroy#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#on_button_click_coins_1000#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#onBillingSetupFinished#0;class#ActivityPurchase#0" expanded="false" />
-            <element signature="e#10044#10045#0" expanded="false" />
-            <element signature="e#10104#10105#0" expanded="false" />
             <element signature="method#consume_coins#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#check_for_remove_ads_purchased#0;class#ActivityPurchase#0" expanded="false" />
             <element signature="method#alert#0;class#ActivityPurchase#0" expanded="false" />
@@ -4525,7 +4501,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding />
+          <folding>
+            <element signature="e#873#891#0" expanded="true" />
+            <element signature="e#1041#1057#0" expanded="true" />
+            <element signature="e#1164#1203#0" expanded="true" />
+            <element signature="e#1297#1315#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4607,7 +4588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-738">
           <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4615,7 +4595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4633,119 +4612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityPlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3231#3232#0" expanded="false" />
-            <element signature="e#3296#3297#0" expanded="false" />
-            <element signature="e#4162#4163#0" expanded="false" />
-            <element signature="e#4239#4240#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#ActivityPlay#0" expanded="false" />
-            <element signature="method#onPause#0;class#ActivityPlay#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityUpgrades.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="201" column="32" selection-start-line="188" selection-start-column="8" selection-end-line="201" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#onResume#0;class#ActivityUpgrades#0" expanded="false" />
-            <element signature="method#onPause#0;class#ActivityUpgrades#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#ActivityUpgrades#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#ActivityUpgrades#0" expanded="false" />
-            <element signature="method#on_button_click_shop_upgrade_cart#0;class#ActivityUpgrades#0" expanded="false" />
-            <element signature="method#on_button_click_shop_upgrade_balls_per_level_cost#0;class#ActivityUpgrades#0" expanded="false" />
-            <element signature="method#on_button_click_shop_upgrade_bomb_chance_cost#0;class#ActivityUpgrades#0" expanded="false" />
-            <element signature="method#on_button_click_shop_upgrade_points_chance_cost#0;class#ActivityUpgrades#0" expanded="false" />
-            <element signature="method#on_button_click_shop_upgrade_aimer_length_cost#0;class#ActivityUpgrades#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityMainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5238">
-          <caret line="339" column="9" selection-start-line="339" selection-start-column="9" selection-end-line="339" selection-end-column="9" />
-          <folding>
-            <element signature="method#show_leaderboards#0;class#ActivityMainMenu#0" expanded="false" />
-            <element signature="method#enable_all_buttons#0;class#ActivityMainMenu#0" expanded="false" />
-            <element signature="method#load_player#0;class#ActivityMainMenu#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/djs/game/ball/playing/CStageGameOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3078">
-          <caret line="195" column="94" selection-start-line="195" selection-start-column="94" selection-end-line="195" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#hide#0;class#CStageGameOver#0" expanded="false" />
-            <element signature="method#load_assets#0;class#CStageGameOver#0" expanded="false" />
-            <element signature="method#create_label_style#0;class#CStageGameOver#0" expanded="false" />
-            <element signature="e#13639#13640#0" expanded="false" />
-            <element signature="e#13682#13683#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityPurchase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2646">
-          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#onResume#0;class#ActivityPurchase#0" expanded="false" />
-            <element signature="method#onPause#0;class#ActivityPurchase#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#ActivityPurchase#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#ActivityPurchase#0" expanded="false" />
-            <element signature="method#on_button_click_coins_1000#0;class#ActivityPurchase#0" expanded="false" />
-            <element signature="method#onBillingSetupFinished#0;class#ActivityPurchase#0" expanded="false" />
-            <element signature="e#10044#10045#0" expanded="false" />
-            <element signature="e#10104#10105#0" expanded="false" />
-            <element signature="method#consume_coins#0;class#ActivityPurchase#0" expanded="false" />
-            <element signature="method#check_for_remove_ads_purchased#0;class#ActivityPurchase#0" expanded="false" />
-            <element signature="method#alert#0;class#ActivityPurchase#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/djs/game/ball/playing/CScreenPlaying.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="180" column="2" selection-start-line="180" selection-start-column="2" selection-end-line="180" selection-end-column="2" />
-          <folding>
-            <element signature="e#4671#5617#0" expanded="true" />
-            <element signature="e#5616#5617#0" expanded="true" />
-            <element signature="e#6456#6676#0" expanded="true" />
-            <element signature="e#6675#6676#0" expanded="true" />
-            <element signature="method#keyDown#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#touchDown#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#touchUp#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#touchDragged#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#load_assets#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#create_label_style#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#create_debug_label_style#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#block_was_destroyed#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#ball_was_launched#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#point_was_earned#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#level_was_completed#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#restart#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#create_walls#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#create_ball#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#create_row#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#create_block#0;class#CScreenPlaying#0" expanded="false" />
-            <element signature="method#create_particle#0;class#CScreenPlaying#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/res/layout/layout_activity_credits.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4759,7 +4625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android/res/layout/layout_activity_purchase.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="1530">
           <caret line="157" column="15" selection-start-line="157" selection-start-column="15" selection-end-line="157" selection-end-column="15" />
           <folding>
             <element signature="e#1196#2085#0" expanded="false" />
@@ -4788,7 +4654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android/res/layout/layout_activity_upgrades.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="9324">
           <caret line="565" column="0" selection-start-line="565" selection-start-column="0" selection-end-line="565" selection-end-column="0" />
           <folding>
             <element signature="e#25753#25859#0" expanded="false" />
@@ -4805,11 +4671,122 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityCredits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityMainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding>
+            <element signature="method#show_leaderboards#0;class#ActivityMainMenu#0" expanded="false" />
+            <element signature="method#enable_all_buttons#0;class#ActivityMainMenu#0" expanded="false" />
+            <element signature="method#load_player#0;class#ActivityMainMenu#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityPurchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+          <folding>
+            <element signature="method#onResume#0;class#ActivityPurchase#0" expanded="false" />
+            <element signature="method#onPause#0;class#ActivityPurchase#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#ActivityPurchase#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#ActivityPurchase#0" expanded="false" />
+            <element signature="method#on_button_click_coins_1000#0;class#ActivityPurchase#0" expanded="false" />
+            <element signature="method#onBillingSetupFinished#0;class#ActivityPurchase#0" expanded="false" />
+            <element signature="method#consume_coins#0;class#ActivityPurchase#0" expanded="false" />
+            <element signature="method#check_for_remove_ads_purchased#0;class#ActivityPurchase#0" expanded="false" />
+            <element signature="method#alert#0;class#ActivityPurchase#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityUpgrades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+          <folding>
+            <element signature="method#onResume#0;class#ActivityUpgrades#0" expanded="false" />
+            <element signature="method#onPause#0;class#ActivityUpgrades#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#ActivityUpgrades#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#ActivityUpgrades#0" expanded="false" />
+            <element signature="method#on_button_click_shop_upgrade_cart#0;class#ActivityUpgrades#0" expanded="false" />
+            <element signature="method#on_button_click_shop_upgrade_balls_per_level_cost#0;class#ActivityUpgrades#0" expanded="false" />
+            <element signature="method#on_button_click_shop_upgrade_bomb_chance_cost#0;class#ActivityUpgrades#0" expanded="false" />
+            <element signature="method#on_button_click_shop_upgrade_points_chance_cost#0;class#ActivityUpgrades#0" expanded="false" />
+            <element signature="method#on_button_click_shop_upgrade_aimer_length_cost#0;class#ActivityUpgrades#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/djs/game/ball/ActivityPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="71" column="44" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="44" />
+          <folding>
+            <element signature="method#onDestroy#0;class#ActivityPlay#0" expanded="false" />
+            <element signature="method#onPause#0;class#ActivityPlay#0" expanded="false" />
+            <element signature="method#onResume#0;class#ActivityPlay#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/djs/game/ball/playing/CStageGameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="195" column="94" selection-start-line="195" selection-start-column="94" selection-end-line="195" selection-end-column="94" />
+          <folding>
+            <element signature="method#hide#0;class#CStageGameOver#0" expanded="false" />
+            <element signature="method#load_assets#0;class#CStageGameOver#0" expanded="false" />
+            <element signature="method#create_label_style#0;class#CStageGameOver#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/djs/game/ball/playing/CScreenPlaying.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+          <folding>
+            <element signature="method#keyDown#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#touchDown#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#touchUp#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#touchDragged#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#load_assets#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#create_label_style#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#create_debug_label_style#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#block_was_destroyed#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#ball_was_launched#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#point_was_earned#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#level_was_completed#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#restart#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#create_walls#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#create_ball#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#create_row#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#create_block#0;class#CScreenPlaying#0" expanded="false" />
+            <element signature="method#create_particle#0;class#CScreenPlaying#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="54">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#873#891#0" expanded="true" />
+            <element signature="e#1041#1057#0" expanded="true" />
+            <element signature="e#1164#1203#0" expanded="true" />
+            <element signature="e#1297#1315#0" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-manifest">
