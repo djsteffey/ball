@@ -1,608 +1,567 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:id="@+id/shop_upgrade_layout"
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center_horizontal">
-
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/shop_upgrade_ad_banner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/admob_banner_ad"
-        />
+    android:layout_height="wrap_content">
 
     <LinearLayout
+        android:id="@+id/shop_upgrade_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingBottom="20dp"
-        android:gravity="center">
+        android:gravity="center_horizontal">
 
-        <Space
-        android:layout_width="match_parent"
-        android:layout_height="10dp" />
-
-        <!-- upgrade upgrades_image_balls_per_level per level -->
-        <RelativeLayout
-            android:id="@+id/shop_upgrade_balls_per_level"
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/shop_upgrade_ad_banner"
             android:layout_width="wrap_content"
-            android:layout_height="120dip"
-            android:padding="10dp"
-            android:background="@drawable/upgrade_background">
-
-            <!-- image -->
-            <ImageView
-                android:id="@+id/shop_upgrade_balls_per_level_image"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:src="@drawable/upgrades_image_balls_per_level"/>
-            <!--upgrades_help button-->
-            <Button
-                android:id="@+id/shop_upgrade_balls_per_level_help"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/upgrades_help"
-                android:drawableRight="@drawable/upgrades_help"
-                android:background="@drawable/circle_shape_green"
-                android:onClick="on_button_click_shop_upgrade_balls_per_level_help"/>
-            <!-- upgrade label -->
-            <TextView
-                android:id="@+id/shop_upgrade_balls_per_level_upgrade"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_image"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="10dp"
-                android:layout_marginBottom="5dp"
-                android:text="Upgrade"
-                android:textSize="30sp"
-                android:textColor="@android:color/white"
-                />
-            <!-- cost/purchase button -->
-            <Button
-                android:id="@+id/shop_upgrade_balls_per_level_cost"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_upgrade"
-                android:text="888"
-                android:textSize="30sp"
-                android:textColor="@android:color/white"
-                android:layout_marginLeft="10dp"
-                android:gravity="left|center_vertical"
-                android:drawableRight="@drawable/upgrades_coin"
-                android:background="@drawable/upgrades_button_cost"
-                android:onClick="on_button_click_shop_upgrade_balls_per_level_cost"/>
-            <!-- upgrade levels -->
-            <View
-                android:id="@+id/shop_upgrade_balls_per_level_1"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_image"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="10dp"/>
-            <View
-                android:id="@+id/shop_upgrade_balls_per_level_2"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_1"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_balls_per_level_3"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_2"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_balls_per_level_4"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_3"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_balls_per_level_5"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_4"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_balls_per_level_6"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_5"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_balls_per_level_7"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_6"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_balls_per_level_8"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_7"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_balls_per_level_9"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_8"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_balls_per_level_10"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_9"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-
-        </RelativeLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
-        <!-- upgrade bomb chance -->
-        <RelativeLayout
-            android:id="@+id/shop_upgrade_bomb_chance"
-            android:layout_width="wrap_content"
-            android:layout_height="120dip"
-            android:padding="10dp"
-            android:background="@drawable/upgrade_background">
-
-            <!-- image -->
-            <ImageView
-                android:id="@+id/shop_upgrade_bomb_chance_image"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:src="@drawable/upgrades_image_bomb_block"
-                />
-            <!--upgrades_help button-->
-            <Button
-                android:id="@+id/shop_upgrade_bomb_chance_help"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/upgrades_help"
-                android:drawableRight="@drawable/upgrades_help"
-                android:background="@drawable/circle_shape_green"
-                android:onClick="on_button_click_shop_upgrade_bomb_chance_help"/>
-            <!-- upgrade label -->
-            <TextView
-                android:id="@+id/shop_upgrade_bomb_chance_upgrade"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_image"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="10dp"
-                android:layout_marginBottom="5dp"
-                android:text="Upgrade"
-                android:textSize="30sp"
-                android:textColor="@android:color/white"
-                />
-            <!-- cost/purchase button -->
-            <Button
-                android:id="@+id/shop_upgrade_bomb_chance_cost"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_upgrade"
-                android:text="888"
-                android:textSize="30sp"
-                android:textColor="@android:color/white"
-                android:layout_marginLeft="10dp"
-                android:gravity="left|center_vertical"
-                android:drawableRight="@drawable/upgrades_coin"
-                android:background="@drawable/upgrades_button_cost"
-                android:onClick="on_button_click_shop_upgrade_bomb_chance_cost"/>
-            <!-- upgrade levels -->
-            <View
-                android:id="@+id/shop_upgrade_bomb_chance_1"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_image"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="10dp"/>
-            <View
-                android:id="@+id/shop_upgrade_bomb_chance_2"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_1"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_bomb_chance_3"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_2"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_bomb_chance_4"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_3"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_bomb_chance_5"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_4"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_bomb_chance_6"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_5"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_bomb_chance_7"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_6"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_bomb_chance_8"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_7"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_bomb_chance_9"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_8"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_bomb_chance_10"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_9"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-
-        </RelativeLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
-        <!-- upgrade points chance -->
-        <RelativeLayout
-            android:id="@+id/shop_upgrade_points_chance"
-            android:layout_width="wrap_content"
-            android:layout_height="120dip"
-            android:padding="10dp"
-            android:background="@drawable/upgrade_background">
-
-            <!-- image -->
-            <ImageView
-                android:id="@+id/shop_upgrade_points_chance_image"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:src="@drawable/upgrades_image_coin_block"
-                />
-            <!--upgrades_help button-->
-            <Button
-                android:id="@+id/shop_upgrade_points_chance_help"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/upgrades_help"
-                android:drawableRight="@drawable/upgrades_help"
-                android:background="@drawable/circle_shape_green"
-                android:onClick="on_button_click_shop_upgrade_points_chance_help"/>
-            <!-- upgrade label -->
-            <TextView
-                android:id="@+id/shop_upgrade_points_chance_upgrade"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_image"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="10dp"
-                android:layout_marginBottom="5dp"
-                android:text="Upgrade"
-                android:textSize="30sp"
-                android:textColor="@android:color/white"
-                />
-            <!-- cost/purchase button -->
-            <Button
-                android:id="@+id/shop_upgrade_points_chance_cost"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_upgrade"
-                android:text="888"
-                android:textSize="30sp"
-                android:textColor="@android:color/white"
-                android:layout_marginLeft="10dp"
-                android:gravity="left|center_vertical"
-                android:drawableRight="@drawable/upgrades_coin"
-                android:background="@drawable/upgrades_button_cost"
-                android:onClick="on_button_click_shop_upgrade_points_chance_cost"/>
-            <!-- upgrade levels -->
-            <View
-                android:id="@+id/shop_upgrade_points_chance_1"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_image"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="10dp"/>
-            <View
-                android:id="@+id/shop_upgrade_points_chance_2"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_1"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_points_chance_3"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_2"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_points_chance_4"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_3"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_points_chance_5"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_4"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_points_chance_6"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_5"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_points_chance_7"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_6"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_points_chance_8"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_7"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_points_chance_9"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_8"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_points_chance_10"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_points_chance_9"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-
-        </RelativeLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
-        <!-- upgrade upgrades_image_aimer length -->
-        <RelativeLayout
-            android:id="@+id/shop_upgrade_aimer_length"
-            android:layout_width="wrap_content"
-            android:layout_height="120dip"
-            android:padding="10dp"
-            android:background="@drawable/upgrade_background">
-
-            <!-- image -->
-            <ImageView
-                android:id="@+id/shop_upgrade_aimer_length_image"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:src="@drawable/upgrades_image_aimer"/>
-            <!--upgrades_help button-->
-            <Button
-                android:id="@+id/shop_upgrade_aimer_length_help"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/upgrades_help"
-                android:drawableRight="@drawable/upgrades_help"
-                android:background="@drawable/circle_shape_green"
-                android:onClick="on_button_click_shop_upgrade_aimer_length_help"/>
-            <!-- upgrade label -->
-            <TextView
-                android:id="@+id/shop_upgrade_aimer_length_upgrade"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_image"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="10dp"
-                android:layout_marginBottom="5dp"
-                android:text="Upgrade"
-                android:textSize="30sp"
-                android:textColor="@android:color/white"
-                />
-            <!-- cost/purchase button -->
-            <Button
-                android:id="@+id/shop_upgrade_aimer_length_cost"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_upgrade"
-                android:text="888"
-                android:textSize="30sp"
-                android:textColor="@android:color/white"
-                android:layout_marginLeft="10dp"
-                android:gravity="left|center_vertical"
-                android:drawableRight="@drawable/upgrades_coin"
-                android:background="@drawable/upgrades_button_cost"
-                android:onClick="on_button_click_shop_upgrade_aimer_length_cost"/>
-            <!-- upgrade levels -->
-            <View
-                android:id="@+id/shop_upgrade_aimer_length_1"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_image"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="10dp"/>
-            <View
-                android:id="@+id/shop_upgrade_aimer_length_2"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_1"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_aimer_length_3"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_2"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_aimer_length_4"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_3"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_aimer_length_5"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_4"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_aimer_length_6"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_5"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_aimer_length_7"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_6"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_aimer_length_8"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_7"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_aimer_length_9"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_8"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/shop_upgrade_aimer_length_10"
-                android:layout_width="19dp"
-                android:layout_height="45dp"
-                android:layout_toRightOf="@+id/shop_upgrade_aimer_length_9"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="5dp"/>
-
-        </RelativeLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
-        <!-- status -->
-        <RelativeLayout
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            >
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_ad"
+            />
 
-            <!--current points-->
-            <LinearLayout
-                android:id="@+id/shop_upgrade_current_points"
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:gravity="center">
+
+            <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+            <!-- upgrade upgrades_image_balls_per_level per level -->
+            <RelativeLayout
+                android:id="@+id/shop_upgrade_balls_per_level"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_centerHorizontal="true">
+                android:layout_height="120dip"
+                android:padding="10dp"
+                android:background="@drawable/upgrade_background">
 
-                <TextView
-                    android:id="@+id/shop_upgrade_current_points_amount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="8888"
-                    android:textSize="60sp"
-                    android:textColor="#FFFFFFFF"/>
-                <Space
-                    android:layout_width="10dp"
-                    android:layout_height="wrap_content" />
+                <!-- image -->
                 <ImageView
-                    android:id="@+id/shop_upgrade_current_points_coin"
+                    android:id="@+id/shop_upgrade_balls_per_level_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/upgrades_image_balls_per_level"/>
+                <!--upgrades_help button-->
+                <Button
+                    android:id="@+id/shop_upgrade_balls_per_level_help"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/upgrades_coin"
-                    android:layout_gravity="center"/>
+                    android:src="@drawable/upgrades_help"
+                    android:drawableRight="@drawable/upgrades_help"
+                    android:background="@drawable/circle_shape_green"
+                    android:onClick="on_button_click_shop_upgrade_balls_per_level_help"/>
 
-            </LinearLayout>
+                <!-- cost/purchase button -->
+                <Button
+                    android:id="@+id/shop_upgrade_balls_per_level_cost"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="888"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left|center_vertical"
+                    android:drawableRight="@drawable/upgrades_coin"
+                    android:background="@drawable/upgrades_button_cost"
+                    android:onClick="on_button_click_shop_upgrade_balls_per_level_cost"/>
+                <!-- upgrade levels -->
+                <View
+                    android:id="@+id/shop_upgrade_balls_per_level_1"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_image"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_balls_per_level_2"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_1"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_balls_per_level_3"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_2"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_balls_per_level_4"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_3"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_balls_per_level_5"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_4"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_balls_per_level_6"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_5"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_balls_per_level_7"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_6"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_balls_per_level_8"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_7"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_balls_per_level_9"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_8"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_balls_per_level_10"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_balls_per_level_9"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
 
-            <!--shopping circle_shape_green-->
-            <Button
-                android:id="@+id/shop_upgrade_purchase"
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <!-- upgrade bomb chance -->
+            <RelativeLayout
+                android:id="@+id/shop_upgrade_bomb_chance"
                 android:layout_width="wrap_content"
+                android:layout_height="120dip"
+                android:padding="10dp"
+                android:background="@drawable/upgrade_background">
+
+                <!-- image -->
+                <ImageView
+                    android:id="@+id/shop_upgrade_bomb_chance_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/upgrades_image_bomb_block"
+                    />
+                <!--upgrades_help button-->
+                <Button
+                    android:id="@+id/shop_upgrade_bomb_chance_help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/upgrades_help"
+                    android:drawableRight="@drawable/upgrades_help"
+                    android:background="@drawable/circle_shape_green"
+                    android:onClick="on_button_click_shop_upgrade_bomb_chance_help"/>
+
+                <!-- cost/purchase button -->
+                <Button
+                    android:id="@+id/shop_upgrade_bomb_chance_cost"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="888"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left|center_vertical"
+                    android:drawableRight="@drawable/upgrades_coin"
+                    android:background="@drawable/upgrades_button_cost"
+                    android:onClick="on_button_click_shop_upgrade_bomb_chance_cost"/>
+                <!-- upgrade levels -->
+                <View
+                    android:id="@+id/shop_upgrade_bomb_chance_1"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_image"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_bomb_chance_2"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_1"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_bomb_chance_3"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_2"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_bomb_chance_4"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_3"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_bomb_chance_5"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_4"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_bomb_chance_6"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_5"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_bomb_chance_7"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_6"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_bomb_chance_8"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_7"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_bomb_chance_9"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_8"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_bomb_chance_10"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_bomb_chance_9"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <!-- upgrade points chance -->
+            <RelativeLayout
+                android:id="@+id/shop_upgrade_points_chance"
+                android:layout_width="wrap_content"
+                android:layout_height="120dip"
+                android:padding="10dp"
+                android:background="@drawable/upgrade_background">
+
+                <!-- image -->
+                <ImageView
+                    android:id="@+id/shop_upgrade_points_chance_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/upgrades_image_coin_block"
+                    />
+                <!--upgrades_help button-->
+                <Button
+                    android:id="@+id/shop_upgrade_points_chance_help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/upgrades_help"
+                    android:drawableRight="@drawable/upgrades_help"
+                    android:background="@drawable/circle_shape_green"
+                    android:onClick="on_button_click_shop_upgrade_points_chance_help"/>
+                <!-- cost/purchase button -->
+                <Button
+                    android:id="@+id/shop_upgrade_points_chance_cost"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="888"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left|center_vertical"
+                    android:drawableRight="@drawable/upgrades_coin"
+                    android:background="@drawable/upgrades_button_cost"
+                    android:onClick="on_button_click_shop_upgrade_points_chance_cost"/>
+                <!-- upgrade levels -->
+                <View
+                    android:id="@+id/shop_upgrade_points_chance_1"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_points_chance_image"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_points_chance_2"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_points_chance_1"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_points_chance_3"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_points_chance_2"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_points_chance_4"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_points_chance_3"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_points_chance_5"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_points_chance_4"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_points_chance_6"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_points_chance_5"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_points_chance_7"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_points_chance_6"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_points_chance_8"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_points_chance_7"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_points_chance_9"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_points_chance_8"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_points_chance_10"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_points_chance_9"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <!-- upgrade upgrades_image_aimer length -->
+            <RelativeLayout
+                android:id="@+id/shop_upgrade_aimer_length"
+                android:layout_width="wrap_content"
+                android:layout_height="120dip"
+                android:padding="10dp"
+                android:background="@drawable/upgrade_background">
+
+                <!-- image -->
+                <ImageView
+                    android:id="@+id/shop_upgrade_aimer_length_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/upgrades_image_aimer"/>
+                <!--upgrades_help button-->
+                <Button
+                    android:id="@+id/shop_upgrade_aimer_length_help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/upgrades_help"
+                    android:drawableRight="@drawable/upgrades_help"
+                    android:background="@drawable/circle_shape_green"
+                    android:onClick="on_button_click_shop_upgrade_aimer_length_help"/>
+
+                <!-- cost/purchase button -->
+                <Button
+                    android:id="@+id/shop_upgrade_aimer_length_cost"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="888"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left|center_vertical"
+                    android:drawableRight="@drawable/upgrades_coin"
+                    android:background="@drawable/upgrades_button_cost"
+                    android:onClick="on_button_click_shop_upgrade_aimer_length_cost"/>
+                <!-- upgrade levels -->
+                <View
+                    android:id="@+id/shop_upgrade_aimer_length_1"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_aimer_length_image"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_aimer_length_2"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_aimer_length_1"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_aimer_length_3"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_aimer_length_2"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_aimer_length_4"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_aimer_length_3"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_aimer_length_5"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_aimer_length_4"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_aimer_length_6"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_aimer_length_5"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_aimer_length_7"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_aimer_length_6"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_aimer_length_8"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_aimer_length_7"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_aimer_length_9"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_aimer_length_8"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:id="@+id/shop_upgrade_aimer_length_10"
+                    android:layout_width="19dp"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/shop_upgrade_aimer_length_9"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"/>
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <!-- status -->
+            <RelativeLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableRight="@drawable/upgrades_cart"
-                android:layout_toRightOf="@+id/shop_upgrade_current_points"
-                android:layout_marginLeft="40dp"
-                android:layout_centerInParent="true"
-                android:background="@drawable/circle_shape_green"
-                android:onClick="on_button_click_shop_upgrade_cart"/>
+                >
+
+                <!--current points-->
+                <LinearLayout
+                    android:id="@+id/shop_upgrade_current_points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:id="@+id/shop_upgrade_current_points_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8888"
+                        android:textSize="60sp"
+                        android:textColor="#FFFFFFFF"/>
+                    <Space
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:id="@+id/shop_upgrade_current_points_coin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/upgrades_coin"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <!--shopping circle_shape_green-->
+                <Button
+                    android:id="@+id/shop_upgrade_purchase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/upgrades_cart"
+                    android:layout_toRightOf="@+id/shop_upgrade_current_points"
+                    android:layout_marginLeft="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/circle_shape_green"
+                    android:onClick="on_button_click_shop_upgrade_cart"/>
 
 
-        </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>
